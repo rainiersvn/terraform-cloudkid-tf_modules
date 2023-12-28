@@ -12,7 +12,7 @@ concurrency:
   group: singular-github-automation
 
 jobs:
-  build-and-run:
+  sync-from-aws:
     runs-on: ubuntu-latest
 
     steps:

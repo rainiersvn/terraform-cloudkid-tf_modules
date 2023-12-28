@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: singular-github-automation
+  group: sync
 
 jobs:
   sync-from-aws:

@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: sync
+  group: sync-from-aws
 
 jobs:
   sync-from-aws:
